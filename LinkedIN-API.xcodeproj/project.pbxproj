@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A9F286E3197E155100CDBEA2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9F286E2197E155100CDBEA2 /* Foundation.framework */; };
+		A9F286E5197E155100CDBEA2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9F286E4197E155100CDBEA2 /* CoreGraphics.framework */; };
+		A9F286E7197E155100CDBEA2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9F286E6197E155100CDBEA2 /* UIKit.framework */; };
+		A9F286ED197E155100CDBEA2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A9F286EB197E155100CDBEA2 /* InfoPlist.strings */; };
+		A9F286EF197E155100CDBEA2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A9F286EE197E155100CDBEA2 /* main.m */; };
+		A9F286F3197E155100CDBEA2 /* LIAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A9F286F2197E155100CDBEA2 /* LIAAppDelegate.m */; };
+		A9F286F5197E155100CDBEA2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9F286F4197E155100CDBEA2 /* Images.xcassets */; };
+		A9F286FC197E155100CDBEA2 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9F286FB197E155100CDBEA2 /* XCTest.framework */; };
+		A9F286FD197E155100CDBEA2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9F286E2197E155100CDBEA2 /* Foundation.framework */; };
+		A9F286FE197E155100CDBEA2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9F286E6197E155100CDBEA2 /* UIKit.framework */; };
+		A9F28706197E155100CDBEA2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A9F28704197E155100CDBEA2 /* InfoPlist.strings */; };
+		A9F28708197E155100CDBEA2 /* LinkedIN_APITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A9F28707197E155100CDBEA2 /* LinkedIN_APITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A9F286FF197E155100CDBEA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9F286D7197E155100CDBEA2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9F286DE197E155100CDBEA2;
+			remoteInfo = "LinkedIN-API";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A9F286DF197E155100CDBEA2 /* LinkedIN-API.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LinkedIN-API.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9F286E2197E155100CDBEA2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A9F286E4197E155100CDBEA2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A9F286E6197E155100CDBEA2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A9F286EA197E155100CDBEA2 /* LinkedIN-API-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LinkedIN-API-Info.plist"; sourceTree = "<group>"; };
+		A9F286EC197E155100CDBEA2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A9F286EE197E155100CDBEA2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A9F286F0197E155100CDBEA2 /* LinkedIN-API-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LinkedIN-API-Prefix.pch"; sourceTree = "<group>"; };
+		A9F286F1197E155100CDBEA2 /* LIAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LIAAppDelegate.h; sourceTree = "<group>"; };
+		A9F286F2197E155100CDBEA2 /* LIAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LIAAppDelegate.m; sourceTree = "<group>"; };
+		A9F286F4197E155100CDBEA2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A9F286FA197E155100CDBEA2 /* LinkedIN-APITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LinkedIN-APITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9F286FB197E155100CDBEA2 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A9F28703197E155100CDBEA2 /* LinkedIN-APITests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LinkedIN-APITests-Info.plist"; sourceTree = "<group>"; };
+		A9F28705197E155100CDBEA2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A9F28707197E155100CDBEA2 /* LinkedIN_APITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LinkedIN_APITests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9F286DC197E155100CDBEA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9F286E5197E155100CDBEA2 /* CoreGraphics.framework in Frameworks */,
+				A9F286E7197E155100CDBEA2 /* UIKit.framework in Frameworks */,
+				A9F286E3197E155100CDBEA2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9F286F7197E155100CDBEA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9F286FC197E155100CDBEA2 /* XCTest.framework in Frameworks */,
+				A9F286FE197E155100CDBEA2 /* UIKit.framework in Frameworks */,
+				A9F286FD197E155100CDBEA2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A9F286D6197E155100CDBEA2 = {
+			isa = PBXGroup;
+			children = (
+				A9F286E8197E155100CDBEA2 /* LinkedIN-API */,
+				A9F28701197E155100CDBEA2 /* LinkedIN-APITests */,
+				A9F286E1197E155100CDBEA2 /* Frameworks */,
+				A9F286E0197E155100CDBEA2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A9F286E0197E155100CDBEA2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9F286DF197E155100CDBEA2 /* LinkedIN-API.app */,
+				A9F286FA197E155100CDBEA2 /* LinkedIN-APITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9F286E1197E155100CDBEA2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A9F286E2197E155100CDBEA2 /* Foundation.framework */,
+				A9F286E4197E155100CDBEA2 /* CoreGraphics.framework */,
+				A9F286E6197E155100CDBEA2 /* UIKit.framework */,
+				A9F286FB197E155100CDBEA2 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A9F286E8197E155100CDBEA2 /* LinkedIN-API */ = {
+			isa = PBXGroup;
+			children = (
+				A9F286F1197E155100CDBEA2 /* LIAAppDelegate.h */,
+				A9F286F2197E155100CDBEA2 /* LIAAppDelegate.m */,
+				A9F286F4197E155100CDBEA2 /* Images.xcassets */,
+				A9F286E9197E155100CDBEA2 /* Supporting Files */,
+			);
+			path = "LinkedIN-API";
+			sourceTree = "<group>";
+		};
+		A9F286E9197E155100CDBEA2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9F286EA197E155100CDBEA2 /* LinkedIN-API-Info.plist */,
+				A9F286EB197E155100CDBEA2 /* InfoPlist.strings */,
+				A9F286EE197E155100CDBEA2 /* main.m */,
+				A9F286F0197E155100CDBEA2 /* LinkedIN-API-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A9F28701197E155100CDBEA2 /* LinkedIN-APITests */ = {
+			isa = PBXGroup;
+			children = (
+				A9F28707197E155100CDBEA2 /* LinkedIN_APITests.m */,
+				A9F28702197E155100CDBEA2 /* Supporting Files */,
+			);
+			path = "LinkedIN-APITests";
+			sourceTree = "<group>";
+		};
+		A9F28702197E155100CDBEA2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9F28703197E155100CDBEA2 /* LinkedIN-APITests-Info.plist */,
+				A9F28704197E155100CDBEA2 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9F286DE197E155100CDBEA2 /* LinkedIN-API */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9F2870B197E155100CDBEA2 /* Build configuration list for PBXNativeTarget "LinkedIN-API" */;
+			buildPhases = (
+				A9F286DB197E155100CDBEA2 /* Sources */,
+				A9F286DC197E155100CDBEA2 /* Frameworks */,
+				A9F286DD197E155100CDBEA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LinkedIN-API";
+			productName = "LinkedIN-API";
+			productReference = A9F286DF197E155100CDBEA2 /* LinkedIN-API.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A9F286F9197E155100CDBEA2 /* LinkedIN-APITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9F2870E197E155100CDBEA2 /* Build configuration list for PBXNativeTarget "LinkedIN-APITests" */;
+			buildPhases = (
+				A9F286F6197E155100CDBEA2 /* Sources */,
+				A9F286F7197E155100CDBEA2 /* Frameworks */,
+				A9F286F8197E155100CDBEA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9F28700197E155100CDBEA2 /* PBXTargetDependency */,
+			);
+			name = "LinkedIN-APITests";
+			productName = "LinkedIN-APITests";
+			productReference = A9F286FA197E155100CDBEA2 /* LinkedIN-APITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9F286D7197E155100CDBEA2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LIA;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Goggle Inc.";
+				TargetAttributes = {
+					A9F286F9197E155100CDBEA2 = {
+						TestTargetID = A9F286DE197E155100CDBEA2;
+					};
+				};
+			};
+			buildConfigurationList = A9F286DA197E155100CDBEA2 /* Build configuration list for PBXProject "LinkedIN-API" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A9F286D6197E155100CDBEA2;
+			productRefGroup = A9F286E0197E155100CDBEA2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9F286DE197E155100CDBEA2 /* LinkedIN-API */,
+				A9F286F9197E155100CDBEA2 /* LinkedIN-APITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9F286DD197E155100CDBEA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9F286ED197E155100CDBEA2 /* InfoPlist.strings in Resources */,
+				A9F286F5197E155100CDBEA2 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9F286F8197E155100CDBEA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9F28706197E155100CDBEA2 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9F286DB197E155100CDBEA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9F286EF197E155100CDBEA2 /* main.m in Sources */,
+				A9F286F3197E155100CDBEA2 /* LIAAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9F286F6197E155100CDBEA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9F28708197E155100CDBEA2 /* LinkedIN_APITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A9F28700197E155100CDBEA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9F286DE197E155100CDBEA2 /* LinkedIN-API */;
+			targetProxy = A9F286FF197E155100CDBEA2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A9F286EB197E155100CDBEA2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9F286EC197E155100CDBEA2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A9F28704197E155100CDBEA2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9F28705197E155100CDBEA2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A9F28709197E155100CDBEA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A9F2870A197E155100CDBEA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A9F2870C197E155100CDBEA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LinkedIN-API/LinkedIN-API-Prefix.pch";
+				INFOPLIST_FILE = "LinkedIN-API/LinkedIN-API-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A9F2870D197E155100CDBEA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LinkedIN-API/LinkedIN-API-Prefix.pch";
+				INFOPLIST_FILE = "LinkedIN-API/LinkedIN-API-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A9F2870F197E155100CDBEA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LinkedIN-API.app/LinkedIN-API";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LinkedIN-API/LinkedIN-API-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "LinkedIN-APITests/LinkedIN-APITests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A9F28710197E155100CDBEA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LinkedIN-API.app/LinkedIN-API";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LinkedIN-API/LinkedIN-API-Prefix.pch";
+				INFOPLIST_FILE = "LinkedIN-APITests/LinkedIN-APITests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9F286DA197E155100CDBEA2 /* Build configuration list for PBXProject "LinkedIN-API" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9F28709197E155100CDBEA2 /* Debug */,
+				A9F2870A197E155100CDBEA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9F2870B197E155100CDBEA2 /* Build configuration list for PBXNativeTarget "LinkedIN-API" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9F2870C197E155100CDBEA2 /* Debug */,
+				A9F2870D197E155100CDBEA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A9F2870E197E155100CDBEA2 /* Build configuration list for PBXNativeTarget "LinkedIN-APITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9F2870F197E155100CDBEA2 /* Debug */,
+				A9F28710197E155100CDBEA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A9F286D7197E155100CDBEA2 /* Project object */;
+}

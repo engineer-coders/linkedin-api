@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>4C67FF56-6EE0-4033-BEE5-302C52954DA6</string>
+	<key>IDESourceControlProjectName</key>
+	<string>LinkedIN-API</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>599B184E-3C6E-4117-B3A5-3B1EB00D211A</key>
+		<string>https://github.com/engineer-coders/linkedin_api.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>LinkedIN-API.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>599B184E-3C6E-4117-B3A5-3B1EB00D211A</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/engineer-coders/linkedin_api.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>599B184E-3C6E-4117-B3A5-3B1EB00D211A</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>599B184E-3C6E-4117-B3A5-3B1EB00D211A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>LinkedIN-API</string>
+		</dict>
+	</array>
+</dict>
+</plist>
