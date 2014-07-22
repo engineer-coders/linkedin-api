@@ -2,7 +2,7 @@
 //  LIAAppDelegate.h
 //  LinkedIN-API
 //
-//  Created by Ivan Aquino on 7/22/14.
+//  Created by Engineer Coders on 7/22/14.
 //  Copyright (c) 2014 Goggle Inc. All rights reserved.
 //
 
