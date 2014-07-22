@@ -23,7 +23,6 @@
 		A9F28717197E223700CDBEA2 /* LIALinkedInClientExampleCredentials.m in Sources */ = {isa = PBXBuildFile; fileRef = A9F28716197E223700CDBEA2 /* LIALinkedInClientExampleCredentials.m */; };
 		A9F2871A197E23A300CDBEA2 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9F28718197E23A300CDBEA2 /* Main_iPad.storyboard */; };
 		A9F2871B197E23A300CDBEA2 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9F28719197E23A300CDBEA2 /* Main_iPhone.storyboard */; };
-		A9F28721197E290500CDBEA2 /* LinkedIN-API-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A9F2871F197E290500CDBEA2 /* LinkedIN-API-Info.plist */; };
 		E3A94230EBBB4410AE6A8A46 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B7E9540E40294676834EBA57 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -247,7 +246,6 @@
 			files = (
 				A9F2871B197E23A300CDBEA2 /* Main_iPhone.storyboard in Resources */,
 				A9F2871A197E23A300CDBEA2 /* Main_iPad.storyboard in Resources */,
-				A9F28721197E290500CDBEA2 /* LinkedIN-API-Info.plist in Resources */,
 				A9F286ED197E155100CDBEA2 /* InfoPlist.strings in Resources */,
 				A9F286F5197E155100CDBEA2 /* Images.xcassets in Resources */,
 			);
