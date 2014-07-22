@@ -54,7 +54,7 @@
     LIALinkedInApplication *application = [LIALinkedInApplication applicationWithRedirectURL:@"https://www.linkedin.com"
                                                                                     clientId:LINKEDIN_CLIENT_ID
                                                                                 clientSecret:LINKEDIN_CLIENT_SECRET
-                                                                                       state:@"DCEEFWF45453sdffef424"
+                                                                                       state:@"SodrKuWLt0flLxSWEopf"
                                                                                grantedAccess:@[@"r_fullprofile", @"r_network"]];
     return [LIALinkedInHttpClient clientForApplication:application presentingViewController:nil];
 }

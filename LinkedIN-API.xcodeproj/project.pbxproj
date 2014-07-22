@@ -20,6 +20,7 @@
 		A9F28706197E155100CDBEA2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A9F28704197E155100CDBEA2 /* InfoPlist.strings */; };
 		A9F28708197E155100CDBEA2 /* LinkedIN_APITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A9F28707197E155100CDBEA2 /* LinkedIN_APITests.m */; };
 		A9F28713197E18CF00CDBEA2 /* LIAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9F28712197E18CF00CDBEA2 /* LIAViewController.m */; };
+		A9F28717197E223700CDBEA2 /* LIALinkedInClientExampleCredentials.m in Sources */ = {isa = PBXBuildFile; fileRef = A9F28716197E223700CDBEA2 /* LIALinkedInClientExampleCredentials.m */; };
 		E3A94230EBBB4410AE6A8A46 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B7E9540E40294676834EBA57 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -53,6 +54,8 @@
 		A9F28707197E155100CDBEA2 /* LinkedIN_APITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LinkedIN_APITests.m; sourceTree = "<group>"; };
 		A9F28711197E18CF00CDBEA2 /* LIAViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LIAViewController.h; sourceTree = "<group>"; };
 		A9F28712197E18CF00CDBEA2 /* LIAViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LIAViewController.m; sourceTree = "<group>"; };
+		A9F28714197E1C3C00CDBEA2 /* LIALinkedInClientExampleCredentials.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LIALinkedInClientExampleCredentials.h; sourceTree = "<group>"; };
+		A9F28716197E223700CDBEA2 /* LIALinkedInClientExampleCredentials.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LIALinkedInClientExampleCredentials.m; sourceTree = "<group>"; };
 		B7E9540E40294676834EBA57 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -120,6 +123,8 @@
 				A9F286F2197E155100CDBEA2 /* LIAAppDelegate.m */,
 				A9F28711197E18CF00CDBEA2 /* LIAViewController.h */,
 				A9F28712197E18CF00CDBEA2 /* LIAViewController.m */,
+				A9F28714197E1C3C00CDBEA2 /* LIALinkedInClientExampleCredentials.h */,
+				A9F28716197E223700CDBEA2 /* LIALinkedInClientExampleCredentials.m */,
 				A9F286F4197E155100CDBEA2 /* Images.xcassets */,
 				A9F286E9197E155100CDBEA2 /* Supporting Files */,
 			);
@@ -287,6 +292,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A9F286EF197E155100CDBEA2 /* main.m in Sources */,
+				A9F28717197E223700CDBEA2 /* LIALinkedInClientExampleCredentials.m in Sources */,
 				A9F286F3197E155100CDBEA2 /* LIAAppDelegate.m in Sources */,
 				A9F28713197E18CF00CDBEA2 /* LIAViewController.m in Sources */,
 			);
